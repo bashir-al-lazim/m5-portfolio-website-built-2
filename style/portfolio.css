@@ -1,0 +1,305 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-position: bottom right, left;
+    background-repeat: no-repeat;
+}
+
+main {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.orange-me {
+    color: #FD6E0A;
+}
+
+button {
+    height: 64px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    color: var(--White-Color, #FFF);
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 35px;
+}
+
+.description {
+    color: var(--Dark-03, #757575);
+    font-size: 18px;
+    line-height: 30px;
+}
+
+/* navigation bar */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-title {
+    color: var(--Dark-01, #181818);
+    font-size: 45px;
+    font-weight: 800;
+    margin-top: 50px;
+    margin-left: 230px;
+}
+
+nav ul {
+    align-items: center;
+    display: flex;
+    margin-top: 50px;
+    margin-right: 230px;
+}
+
+nav li {
+    list-style: none;
+    color: var(--Dark-02, #474747);
+    font-size: 20px;
+}
+
+.li-margin {
+    margin-right: 51px;
+}
+
+/* banner */
+
+.banner {
+    display: flex;
+    align-items: center;
+}
+
+.self-intro {
+    margin-left: 230px;
+}
+
+.self-greet {
+    color: var(--Dark-02, #474747);
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.self-name {
+    color: var(--Dark-01, #181818);
+    font-size: 85px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.self-description {
+    width: 550px;
+    margin-bottom: 30px;
+    margin-right: 125px;
+}
+
+.banner-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.button-contact {
+    margin-left: 30px;
+    background: #FFF8F3;
+    border: 1px solid #FD6E0A;
+}
+
+/* sections */
+
+.section-head {
+    color: var(--Dark-01, #181818);
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+/* about me section */
+
+.about {
+    margin: 130px 0;
+    padding: 131px 155px;
+    background: #FFF8F3;
+}
+
+.about-title,
+.do-title {
+    margin-bottom: 30px;
+}
+
+.about-description {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about ul {
+    display: flex;
+    gap: 50px;
+}
+
+.about li {
+    list-style: none;
+    text-align: center;
+    font-size: 20px;
+
+    line-height: 30px;
+}
+
+.about-info-title {
+    color: var(--Dark-03, #757575);
+}
+
+.about-info-data {
+    color: var(--Dark-02, #474747);
+    font-weight: 700;
+    line-height: 30px;
+}
+
+/* what i do section */
+
+.what-i-do {
+    align-items: center;
+    margin-bottom: 130px;
+}
+
+.do-description {
+    text-align: center;
+    margin: 0 115px 50px 115px;
+}
+
+.skill-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    width: 267px;
+    height: 330px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 40px;
+}
+
+.skill img {
+    margin-bottom: 30px;
+}
+
+.skill-title {
+    margin-bottom: 20px;
+}
+
+.skill-description,
+.resume .sub-part-description {
+    color: var(--Dark-03, #757575);
+    line-height: 28px;
+}
+
+/* resume section */
+
+.resume {
+    margin-bottom: 113px;
+}
+
+.resume-title {
+    margin-bottom: 113px;
+}
+
+.resume-container {
+    display: flex;
+    gap: 24px;
+}
+
+.resume .part-title {
+    color: var(--Dark-02, #474747);
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.resume .sub-part-title {
+    color: var(--Dark-02, #474747);
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.resume .sub-part-institute {
+    color: var(--Dark-03, #757575);
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.resume .sub-part-description {
+    margin-right: 71px;
+}
+
+.resume hr {
+    width: 558px;
+    border: 1px solid #D1D1D1;
+    /* new added */
+    background: #D1D1D1;
+    margin: 30px 0;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 70px;
+}
+
+/* footer */
+
+.footer-container {
+    display: flex;
+    gap: 117px;
+    background: #FFF8F3;
+    padding: 130px 230px;
+}
+
+.connect-title,
+.message-title {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.connect-description {
+    color: var(--Dark-02, #474747);
+    width: 540px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.connect-icon {
+    margin-right: 25px;
+}
+
+.message-title {
+    margin-bottom: 28px;
+}
+
+footer input,
+footer textarea {
+    font-size: 16px;
+    text-indent: 20px;
+    border: 0;
+    width: 461px;
+    border-radius: 10px;
+    background: var(--White-Color, #FFF);
+    margin-bottom: 24px;
+}
+
+footer input {
+    height: 64px;
+}
+
+footer textarea {
+    padding-top: 20px;
+}

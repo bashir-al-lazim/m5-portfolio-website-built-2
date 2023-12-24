@@ -74,6 +74,7 @@ nav li {
 .banner {
     display: flex;
     align-items: center;
+    margin-top: 47px;
 }
 
 .self-intro {
@@ -261,7 +262,7 @@ nav li {
     display: flex;
     gap: 117px;
     background: #FFF8F3;
-    padding: 130px 230px;
+    padding: 130px 190px;
 }
 
 .connect-title,
@@ -290,7 +291,7 @@ footer textarea {
     font-size: 16px;
     text-indent: 20px;
     border: 0;
-    width: 461px;
+    width: 490px;
     border-radius: 10px;
     background: var(--White-Color, #FFF);
     margin-bottom: 24px;
